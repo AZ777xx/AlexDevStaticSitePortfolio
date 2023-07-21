@@ -69,6 +69,9 @@
 
 Официальная страница: [https://www.gta5-mods.com/scripts/true-realistic-driving-v-realistic-mass-v0-1-beta](https://www.gta5-mods.com/scripts/true-realistic-driving-v-realistic-mass-v0-1-beta)
 
+# ozon yandex google
+# googleparser
+# plc web
 Lorem markdownum pro cruor amor fata carmine succumbere totis silvasque dare
 poenas. Quid quoque, vis Baucida tamen: structis unus murmure crimen similis
 fientque plangitur.

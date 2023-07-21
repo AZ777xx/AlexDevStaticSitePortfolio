@@ -62,14 +62,13 @@ body > .container {
 
 .col-md-9 img {
     max-width: 100%;
-    max-height 13vh;
+    max-height: 13vh;
     display: inline-block;
     padding: 4px;
     line-height: 1.428571429;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 4px;
-    margin: 20px auto 30px auto;
 }
 
 h1 {
