@@ -1,0 +1,27 @@
+site_name: Александр Ж. - Разработка приложений
+theme:
+    name: mkdocs
+    custom_dir: custom_theme/
+copyright: Александр Ж. Проекты.
+nav:
+    - Общее: index.md
+    - Проекты: projects.md
+    - Контакты: contact.md
+extra:
+    title: Александр Ж.
+    subtitle: Разработка приложений
+    copyrightlink: Контакты
+plugins:
+   - glightbox:
+       touchNavigation: true
+       loop: false
+       effect: zoom
+       slide_effect: slide
+       width: 100%
+       height: auto
+       zoomable: true
+       draggable: true
+       skip_classes:
+         - custom-skip-class-name
+       auto_caption: true
+       caption_position: bottom

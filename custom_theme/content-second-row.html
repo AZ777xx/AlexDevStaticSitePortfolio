@@ -1,0 +1,18 @@
+{% set content_parts = page.content.split("<!-- SPLIT HERE -->") %}
+
+{% if not 'hide_toc' in page.meta%}
+
+    <div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="{% trans %}Table of Contents{% endtrans %}">
+                <span class="fa fa-angle-down"></span>
+            </button>
+        </div>
+
+        <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+            <div class="second-row">
+                 {{ content_parts[1] }}
+            </div>
+        </div>
+    </div>
+{% endif %}
