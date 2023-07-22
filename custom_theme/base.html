@@ -70,11 +70,10 @@
     <body{% if page and page.is_homepage %} class="homepage"{% endif %}>
      <div class="header">
     <div class="icon">
-        {% if page and page.is_homepage %}
-      <img src="img/favicon.ico" alt="Title" class="title-image"
-        {% else %}
-            <img src="../img/favicon.ico" alt="Title" class="title-image"
-        {% endif %}>
+        {# This should work: {{ 'img/favicon.ico'|url }}#}
+
+      <img src="{{ 'img/favicon.ico'|url }}" alt="Title" class="title-image"
+
     </div>
          <div class="titles">
     <div class="title">
