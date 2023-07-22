@@ -11,8 +11,7 @@ def git_subtree_push():
    # git_subtree_pull()
 
     # Push the changes to the remote repository
-    push_command = ["git", "subtree", "commit", "--prefix", "site", "origin", "gh-pages"]
-    subprocess.run(push_command)
+
     push_command = ["git", "subtree", "push", "--prefix", "site", "origin", "gh-pages"]
     push_result = subprocess.run(push_command, capture_output=True, text=True)
 
