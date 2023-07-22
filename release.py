@@ -8,7 +8,7 @@ def git_subtree_pull():
 
 def git_subtree_push():
     # Call the pull function before pushing
-    git_subtree_pull()
+   # git_subtree_pull()
 
     # Push the changes to the remote repository
     push_command = ["git", "subtree", "push", "--prefix", "site", "origin", "gh-pages"]
