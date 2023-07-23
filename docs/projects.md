@@ -69,49 +69,36 @@
 
 Официальная страница: [https://www.gta5-mods.com/scripts/true-realistic-driving-v-realistic-mass-v0-1-beta](https://www.gta5-mods.com/scripts/true-realistic-driving-v-realistic-mass-v0-1-beta)
 
-# ozon yandex google
-# googleparser
-# plc web
-Lorem markdownum pro cruor amor fata carmine succumbere totis silvasque dare
-poenas. Quid quoque, vis Baucida tamen: structis unus murmure crimen similis
-fientque plangitur.
+------------------
+# YM-Excel-Tools
+### VBA
+![Расширение в Excel](img/Projects/YmExcel1.PNG)
+![Один из вариантов вывода - Форматирование под инвентаризацию](img/Projects/YmExcel2.png)
 
-    var facebookRisc = inkjetWebsiteDirect + perlHoc - system * secondary(
-            waveform, eps);
-    disk_rtf += backlinkMethodParallel;
-    if (dimmToken(302584, caps, url + volume.shortcut_market(5,
-            user_denial_platform, 3))) {
-        crmSkyscraper(url_computer, -3);
-        mask(netStatusHost - -5, 3, 5);
-    }
+*Расширение с набором функций для работы с файлом заказов, выгруженным из личного кабинета ПВЗ Яндекс Маркет*
 
-## Amorem nemo exhausta parentis turba propositumque tempto
+- __Основной функционал__ - Поиск заказов по категориям и форматирование для печати
+- Выборка заказов, форматирование для печати, добавление даты, количества заказов, выделение полей и сортировка инвентаризации под требования склада заказчика
+-------------
+# Google-Ozon-YM-Sync
+### Python + Google Api, Ozon Api, Yandex Api
+![Ручная синхронизация](img/Projects/Google-Ozon-YM-Sync1.png)
+![Автоматическая синхронизация при изменении количества товара](img/Projects/Google-Ozon-YM-Sync2.png)
 
-Iuvenalia contigit postquam circumque artes consedit ducitur idcirco [adhuc
-doloris](http://www.mihi.io/saepe-poterant) Aeneae. [Lumen summoque
-positoque](http://www.pretium-abesse.io/ictumeropis) eluditque gemitus rubescere
-popularis tuo, recepto sunt ignibus pecori vera rursusque timuit lumine duos;
-parantem. Comitesque causam, arma nimiumque, lucis absumitur spretae mugire
-pectus vidimus Ceyx ullus Rhamnusia materna et quoque. Pumice **reddidit in
-harenis** civit ut *tot dicentem servitura* vana quodque erras certasse Alpes
-Augustum: virides. **Lactente** sanguine secutum.
+*Скрипт,синхронизирующий остатки товара магазина на Озон и Яндекс Маркет*
 
-## Pallentem tum Atlas paratae amorem prolem femineis
+- Написан для магазина, ведущего инвентарь в Гугл таблицах
+- Поддерживает ручную синхронизацию остатков, а так же постоянную автоматическую работу
+- Развёрнутые логи в текстовом файле
+-------------
+# GooglePhoneParser
+### Python + Selenium
+![Интерфейс](img/Projects/GooglePhoneParser.png)
 
-Dantem artus certe. Autolyci genitor agmen ora Pylos conpulit novus urbe versum
-Styx deque habitasse. Vulnere in crimina
-[procul](http://cum-locus.org/adiere.php), capite, somno omnem ergo prius
-vestem, [undas](http://desieratfirmat.net/pronusnoctes). Sine nulla, clamant
-fetu erat motae Anapis et iuvet versus, primum pando *dominae* saxum diversi.
+*Скрипт, собирающий телефонные номера с сайтов по определённому запросу в Гугл*
 
-> Tenentis Belides, et per qui aetate praedaque posuere ministrarum pulsat.
-> Ardor caelumque cornu: summum usus
-> [servatoremque](http://www.uterque.net/hoc-at.html) longi dabunt exstinctos,
-> indignave nostra mors flumina dammas, vix Burin unguibus?
+- Распознание номеров во всех местах сайта, включая нестандартные форматировки
+- Поддерживает ручную синхронизацию остатков, а так же постоянную автоматическую работу
+- Развёрнутые логи в текстовом файле
 
-## Pelle cupiere ignotos mentes ossa pius virginea
-
-Nunc ante aper Pallorque, iamque. Solverat digna modo ista.
-
-Nuper colle stringebat ulla est circumspexit, illis et procul, Latinas. Remansit
-genetrice et silendo **vides hiatu**: nomen, tot gurges vicimus Iuno.
+<!-- # plc web # duplicate photo finder -->
