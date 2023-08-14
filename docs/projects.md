@@ -62,13 +62,25 @@
 
 *Набор модов для реалистичного поведения автомобился в игре GTA V*
 
+Официальная страница: [https://www.gta5-mods.com/scripts/true-realistic-driving-v-realistic-mass-v0-1-beta](https://www.gta5-mods.com/scripts/true-realistic-driving-v-realistic-mass-v0-1-beta)
+
 - __True Realistic Driving V__ - GTA не берёт в расчёт массу автомобиля при вычислении физики. Данный мод добавляет силы инерции, основываясь на массе
 - __Stop!Powercutting__ - GTA урезает мощность двигателя при пробуксовке - данный мод вычисляет и возврашает потерянную мощность
 - __True Smoke V__ - Генерация дополнительных эффектов дыма
 - __ManualTransmission__ - Разработал и внедрил дифференциал ограниченного проскальзывания
 
-Официальная страница: [https://www.gta5-mods.com/scripts/true-realistic-driving-v-realistic-mass-v0-1-beta](https://www.gta5-mods.com/scripts/true-realistic-driving-v-realistic-mass-v0-1-beta)
+----------------
+# PLC Front
+### JS,HTML + Siemens TIA Portal / Step
+![Скриншот первой страницы](img/Projects/PLCFront1.png)
 
+*Веб фронт-энд для управления программой контроллера Siemens PLC*
+
+Демонстрация первой страницы интерфейса (без функционала): [https://github.com/AZ777xx/CountersteerLFS](https://github.com/AZ777xx/CountersteerLFS)
+
+- Чтение и запись переменных
+- Наглядный, анимированный интерфейс
+- Поддержка десктопных и мобильных браузеров
 ------------------
 # YM-Excel-Tools
 ### VBA
