@@ -23,6 +23,31 @@ def git_subtree_push():
     if push_result.stderr:
         print("Error Output:")
         print(push_result.stderr)
+
+
+def git_subtree_force_push():
+    # Split the 'site' folder into a new branch
+    split_command = ["git", "subtree", "split", "--prefix=site", "origin", "gh-pages"]
+    split_result = subprocess.run(split_command, capture_output=True, text=True)
+    if split_result.returncode != 0:
+        print("Error splitting subtree:")
+        print(split_result.stdout)
+        print(split_result.stderr)
+        return
+
+    # Extract the commit hash from the split result
+    commit_hash = split_result.stdout.strip()
+
+    # Force push the subtree split to the remote gh-pages branch
+    force_push_command = ["git", "push", "origin", f"{commit_hash}:gh-pages", "--force"]
+    force_push_result = subprocess.run(force_push_command, capture_output=True, text=True)
+
+    # Check the results and print them out
+    print("Force Push Command Output:")
+    print(force_push_result.stdout)
+    if force_push_result.stderr:
+        print("Error Output:")
+        print(force_push_result.stderr)
 def mkdocs_build():
     command = ["mkdocs", "build"]
     try:
@@ -43,4 +68,4 @@ def mkdocs_build():
         print(e.stderr)
 if __name__ == "__main__":
     mkdocs_build()
-    git_subtree_push()
+    git_subtree_force_push()
