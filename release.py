@@ -69,3 +69,5 @@ def mkdocs_build():
 if __name__ == "__main__":
     mkdocs_build()
     git_subtree_force_push()
+    print("https://github.com/AZ777xx/AlexDevStaticSitePortfolio/settings/pages")
+    print("Use this site: alexanderzhx.is-a.dev")
